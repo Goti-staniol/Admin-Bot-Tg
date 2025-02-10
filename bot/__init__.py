@@ -1,2 +1,2 @@
-from .bot import bot, dp, group_router, private_router
-
+from .handlers.private import private_router
+from .handlers.group import group_router
