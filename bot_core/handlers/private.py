@@ -2,7 +2,7 @@ from aiogram import Bot, Router, F
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message, CallbackQuery
 
-from bot.keyboard.inline import generate_menu_kb
+from bot_core.keyboard.inline import generate_menu_kb
 
 
 private_router = Router()

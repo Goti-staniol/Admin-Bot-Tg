@@ -4,7 +4,7 @@ import os
 from aiogram import Bot, Dispatcher
 from dotenv import load_dotenv
 
-from bot import private_router, group_router
+from bot_core import private_router, group_router
 
 
 load_dotenv()
